@@ -1,0 +1,15 @@
+@import 'variable';
+html{
+    scroll-behavior: smooth;
+}
+header{
+        a{
+            color: $gbasii;
+        }
+}
+section{
+    height: 100vh;
+    background-color: blue;
+}:nth-child(even){
+    background-color: red;
+}
